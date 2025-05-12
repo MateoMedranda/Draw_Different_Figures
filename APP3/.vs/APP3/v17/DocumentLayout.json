@@ -15,7 +15,7 @@
       "RelativeMoniker": "D:0:0:{D4F491E1-994A-4D80-8497-FCAB86689D6C}|APP3\\APP3.csproj|solutionrelative:app3\\class11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4F491E1-994A-4D80-8497-FCAB86689D6C}|APP3\\APP3.csproj|c:\\users\\mateo\\source\\repos\\medranda_deber_c-lculo-de-rea-y-per-metro-de-figuras-geom-tricas-con-interfaz-gr-fica-en-c-\\app3\\app3\\frm11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{D4F491E1-994A-4D80-8497-FCAB86689D6C}|APP3\\APP3.csproj|C:\\Users\\Mateo\\source\\repos\\Medranda_Deber_C-lculo-de-rea-y-Per-metro-de-Figuras-Geom-tricas-con-Interfaz-Gr-fica-en-C-\\APP3\\app3\\frm11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D4F491E1-994A-4D80-8497-FCAB86689D6C}|APP3\\APP3.csproj|solutionrelative:app3\\frm11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -63,8 +63,7 @@
               "RelativeToolTip": "APP3\\Class11.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAYwDkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T03:39:31.222Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T03:39:31.222Z"
             },
             {
               "$type": "Document",
@@ -75,8 +74,7 @@
               "ToolTip": "C:\\Users\\Mateo\\source\\repos\\Medranda_Deber_C-lculo-de-rea-y-Per-metro-de-Figuras-Geom-tricas-con-Interfaz-Gr-fica-en-C-\\APP3\\APP3\\Frm11.cs [Dise\u00F1o]",
               "RelativeToolTip": "APP3\\Frm11.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T03:39:28.382Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-05-12T03:39:28.382Z"
             },
             {
               "$type": "Document",
@@ -113,8 +111,7 @@
               "ToolTip": "C:\\Users\\Mateo\\source\\repos\\Medranda_Deber_C-lculo-de-rea-y-Per-metro-de-Figuras-Geom-tricas-con-Interfaz-Gr-fica-en-C-\\APP3\\APP3\\Frm10.cs [Dise\u00F1o]",
               "RelativeToolTip": "APP3\\Frm10.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T19:03:48.625Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-05-10T19:03:48.625Z"
             },
             {
               "$type": "Document",
@@ -125,8 +122,7 @@
               "ToolTip": "C:\\Users\\Mateo\\source\\repos\\Medranda_Deber_C-lculo-de-rea-y-Per-metro-de-Figuras-Geom-tricas-con-Interfaz-Gr-fica-en-C-\\APP3\\APP3\\FrmHome.cs [Dise\u00F1o]",
               "RelativeToolTip": "APP3\\FrmHome.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T12:21:24.515Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-05-06T12:21:24.515Z"
             }
           ]
         }
