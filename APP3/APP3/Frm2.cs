@@ -21,12 +21,15 @@ namespace APP3
 
         private void btnCalculate_Click(object sender, EventArgs e)
         {
-            ObjSquare.ReadData(txtWidth);
-            ObjSquare.PerimeterSquare();
-            ObjSquare.AreaSquare();
-            ObjSquare.PrintData(txtPerimeter, txtArea);
-            ObjSquare.PlotShape(picCanvas);
+            if (ObjSquare.ReadData(txtWidth))
+            {
+                ObjSquare.PerimeterSquare();
+                ObjSquare.AreaSquare();
+                ObjSquare.PrintData(txtPerimeter, txtArea);
+                ObjSquare.PlotShape(picCanvas);
+            }
         }
+
 
         private void btnReset_Click(object sender, EventArgs e)
         {

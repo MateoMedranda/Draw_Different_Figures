@@ -19,19 +19,38 @@ namespace APP3
             mPerimeter = 0.0f; mArea = 0.0f;
         }
 
-        public void ReadData(TextBox txtWidth,int num)
+        public bool ReadData(TextBox txtWidth, int num)
         {
             try
             {
-                mWidth = float.Parse(txtWidth.Text);
-                numLados = num;
-            }
-            catch
-            {
-                MessageBox.Show("Ingreso no valido...", "Mensaje de error");
-            }
+                if (string.IsNullOrWhiteSpace(txtWidth.Text))
+                {
+                    MessageBox.Show("No deje el campo vacío.", "Mensaje de error");
+                    return false;
+                }
 
+                if (!float.TryParse(txtWidth.Text, out mWidth))
+                {
+                    MessageBox.Show("Ingrese solo un número válido (sin letras ni símbolos).", "Mensaje de error");
+                    return false;
+                }
+
+                if (mWidth <= 0)
+                {
+                    MessageBox.Show("El valor de ancho debe ser mayor que cero.", "Mensaje de error");
+                    return false;
+                }
+
+                numLados = num;
+                return true;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Ocurrió un error: " + ex.Message, "Mensaje de error");
+                return false;
+            }
         }
+
 
         public void PerimeterFigure()
         {

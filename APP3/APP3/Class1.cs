@@ -37,19 +37,37 @@ namespace APP3
         }
 
         //Función que lee los datos de entrada del rectángulo
-        public void ReadData(TextBox txtWidth, TextBox txtHeight)
+        public bool ReadData(TextBox txtWidth, TextBox txtHeight)
         {
             try
             {
-                mWidth = float.Parse(txtWidth.Text);
-                mHeight = float.Parse(txtHeight.Text);
-            }
-            catch
-            {
-                MessageBox.Show("Ingreso no valido...", "Mensaje de error");
-            }
+                if (string.IsNullOrWhiteSpace(txtWidth.Text) || string.IsNullOrWhiteSpace(txtHeight.Text))
+                {
+                    MessageBox.Show("No deje los campos vacíos.", "Mensaje de error");
+                    return false;
+                }
 
+                if (!float.TryParse(txtWidth.Text, out mWidth) || !float.TryParse(txtHeight.Text, out mHeight))
+                {
+                    MessageBox.Show("Ingrese solo números válidos (sin letras ni símbolos).", "Mensaje de error");
+                    return false;
+                }
+
+                if (mWidth < 0 || mHeight < 0)
+                {
+                    MessageBox.Show("No se permiten valores menores a cero.", "Mensaje de error");
+                    return false;
+                }
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Ocurrió un error: " + ex.Message, "Mensaje de error");
+                return false;
+            }
         }
+
 
         public void PerimeterRectangle()
         {

@@ -21,11 +21,14 @@ namespace APP3
 
         private void btnCalculate_Click(object sender, EventArgs e)
         {
-            ObjTrapezoide.ReadData(txtA, txtB, txtC, txtD, txtDiagonal);
-            ObjTrapezoide.PerimeterTrapezium();
-            ObjTrapezoide.AreaTrapezium();
-            ObjTrapezoide.PrintData(txtPerimeter, txtArea);
+            if (ObjTrapezoide.ReadData(txtA, txtB, txtC, txtD, txtDiagonal))
+            {
+                ObjTrapezoide.PerimeterTrapezium();
+                ObjTrapezoide.AreaTrapezium();
+                ObjTrapezoide.PrintData(txtPerimeter, txtArea);
+            }
         }
+
 
         private void btnReset_Click(object sender, EventArgs e)
         {

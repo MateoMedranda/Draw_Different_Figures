@@ -21,19 +21,37 @@ namespace APP3
         }
 
         //Función que lee los datos de entrada del rombo
-        public void ReadData(TextBox txtMajorR, TextBox txtMinorR)
+        public bool ReadData(TextBox txtMajorR, TextBox txtMinorR)
         {
             try
             {
-                mMajorR = float.Parse(txtMajorR.Text);
-                mMinorR = float.Parse(txtMinorR.Text);
-            }
-            catch
-            {
-                MessageBox.Show("Ingreso no valido...", "Mensaje de error");
-            }
+                if (string.IsNullOrWhiteSpace(txtMajorR.Text) || string.IsNullOrWhiteSpace(txtMinorR.Text))
+                {
+                    MessageBox.Show("No deje los campos vacíos.", "Mensaje de error");
+                    return false;
+                }
 
+                if (!float.TryParse(txtMajorR.Text, out mMajorR) || !float.TryParse(txtMinorR.Text, out mMinorR))
+                {
+                    MessageBox.Show("Ingrese solo números válidos (sin letras ni símbolos).", "Mensaje de error");
+                    return false;
+                }
+
+                if (mMajorR < 0 || mMinorR < 0)
+                {
+                    MessageBox.Show("No se permiten valores menores a cero.", "Mensaje de error");
+                    return false;
+                }
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Ocurrió un error: " + ex.Message, "Mensaje de error");
+                return false;
+            }
         }
+
 
         public void PerimeterElipse()
         {

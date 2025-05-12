@@ -25,18 +25,37 @@ namespace APP3
         }
 
         //Función que lee los datos de entrada del Cuadrado
-        public void ReadData(TextBox txtWidth)
+        public bool ReadData(TextBox txtWidth)
         {
             try
             {
-                mWidth = float.Parse(txtWidth.Text);
-            }
-            catch
-            {
-                MessageBox.Show("Ingreso no valido...", "Mensaje de error");
-            }
+                if (string.IsNullOrWhiteSpace(txtWidth.Text))
+                {
+                    MessageBox.Show("No deje el campo vacío.", "Mensaje de error");
+                    return false;
+                }
 
+                if (!float.TryParse(txtWidth.Text, out mWidth))
+                {
+                    MessageBox.Show("Ingrese solo un número válido (sin letras ni símbolos).", "Mensaje de error");
+                    return false;
+                }
+
+                if (mWidth < 0)
+                {
+                    MessageBox.Show("No se permiten valores menores a cero.", "Mensaje de error");
+                    return false;
+                }
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Ocurrió un error: " + ex.Message, "Mensaje de error");
+                return false;
+            }
         }
+
 
         public void PerimeterSquare()
         {

@@ -22,20 +22,41 @@ namespace APP3
         }
 
         //Función que lee los datos de entrada del Trapecio
-        public void ReadData(TextBox txtLateralSide, TextBox txtBase, TextBox txtTop)
+        public bool ReadData(TextBox txtLateralSide, TextBox txtBase, TextBox txtTop)
         {
             try
             {
-                mLateralSide = float.Parse(txtLateralSide.Text);
-                mBase = float.Parse(txtBase.Text);
-                mTop = float.Parse(txtTop.Text);
-            }
-            catch
-            {
-                MessageBox.Show("Ingreso no valido...", "Mensaje de error");
-            }
+                if (string.IsNullOrWhiteSpace(txtLateralSide.Text) ||
+                    string.IsNullOrWhiteSpace(txtBase.Text) ||
+                    string.IsNullOrWhiteSpace(txtTop.Text))
+                {
+                    MessageBox.Show("No deje campos vacíos.", "Mensaje de error");
+                    return false;
+                }
 
+                if (!float.TryParse(txtLateralSide.Text, out mLateralSide) ||
+                    !float.TryParse(txtBase.Text, out mBase) ||
+                    !float.TryParse(txtTop.Text, out mTop))
+                {
+                    MessageBox.Show("Ingrese solo números válidos (sin letras ni símbolos).", "Mensaje de error");
+                    return false;
+                }
+
+                if (mLateralSide < 0 || mBase < 0 || mTop < 0)
+                {
+                    MessageBox.Show("No se permiten valores menores a cero.", "Mensaje de error");
+                    return false;
+                }
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Ocurrió un error: " + ex.Message, "Mensaje de error");
+                return false;
+            }
         }
+
 
         public void PerimeterTrapezoid()
         {

@@ -21,11 +21,14 @@ namespace APP3
 
         private void btnCalculate_Click(object sender, EventArgs e)
         {
-            ObjElipse.ReadData(txtMajorRadius, txtMinorRadius);
-            ObjElipse.PerimeterElipse();
-            ObjElipse.AreaElipse();
-            ObjElipse.PrintData(txtPerimeter, txtArea);
+            if (ObjElipse.ReadData(txtMajorRadius, txtMinorRadius))
+            {
+                ObjElipse.PerimeterElipse();
+                ObjElipse.AreaElipse();
+                ObjElipse.PrintData(txtPerimeter, txtArea);
+            }
         }
+
 
         private void btnReset_Click(object sender, EventArgs e)
         {

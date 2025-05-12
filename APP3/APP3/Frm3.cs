@@ -20,13 +20,15 @@ namespace APP3
 
         private void btnCalculate_Click(object sender, EventArgs e)
         {
-            ObjCircle.ReadData(txtRadius);
-            ObjCircle.PerimeterCircle();
-            ObjCircle.AreaCircle();
-            ObjCircle.PrintData(txtPerimeter,txtArea);
-            ObjCircle.PlotShape(picCanvas);
-
+            if (ObjCircle.ReadData(txtRadius))
+            {
+                ObjCircle.PerimeterCircle();
+                ObjCircle.AreaCircle();
+                ObjCircle.PrintData(txtPerimeter, txtArea);
+                ObjCircle.PlotShape(picCanvas);
+            }
         }
+
 
         private void btnReset_Click(object sender, EventArgs e)
         {

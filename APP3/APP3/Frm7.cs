@@ -21,11 +21,14 @@ namespace APP3
 
         private void btnCalculate_Click(object sender, EventArgs e)
         {
-            objTrapecio.ReadData(txtLateralSide, txtBase, txtTop);
-            objTrapecio.PerimeterTrapezoid();
-            objTrapecio.AreaTrapezoid();
-            objTrapecio.PrintData(txtPerimeter, txtArea);
+            if (objTrapecio.ReadData(txtLateralSide, txtBase, txtTop))
+            {
+                objTrapecio.PerimeterTrapezoid();
+                objTrapecio.AreaTrapezoid();
+                objTrapecio.PrintData(txtPerimeter, txtArea);
+            }
         }
+
 
         private void btnReset_Click(object sender, EventArgs e)
         {

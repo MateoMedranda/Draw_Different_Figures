@@ -24,23 +24,45 @@ namespace APP3
         }
 
         //Función que lee los datos de entrada del Trapezoide
-        public void ReadData(TextBox txtA, TextBox txtB, TextBox txtC, TextBox txtD, TextBox txtDiagonal)
+        public bool ReadData(TextBox txtA, TextBox txtB, TextBox txtC, TextBox txtD, TextBox txtDiagonal)
         {
             try
             {
-                mA = float.Parse(txtA.Text);
-                mB = float.Parse(txtB.Text);
-                mC = float.Parse(txtC.Text);
-                mD = float.Parse(txtD.Text);
-                mDiagonal = float.Parse(txtDiagonal.Text);
+                if (string.IsNullOrWhiteSpace(txtA.Text) ||
+                    string.IsNullOrWhiteSpace(txtB.Text) ||
+                    string.IsNullOrWhiteSpace(txtC.Text) ||
+                    string.IsNullOrWhiteSpace(txtD.Text) ||
+                    string.IsNullOrWhiteSpace(txtDiagonal.Text))
+                {
+                    MessageBox.Show("No deje campos vacíos.", "Mensaje de error");
+                    return false;
+                }
 
+                if (!float.TryParse(txtA.Text, out mA) ||
+                    !float.TryParse(txtB.Text, out mB) ||
+                    !float.TryParse(txtC.Text, out mC) ||
+                    !float.TryParse(txtD.Text, out mD) ||
+                    !float.TryParse(txtDiagonal.Text, out mDiagonal))
+                {
+                    MessageBox.Show("Ingrese solo números válidos (sin letras ni símbolos).", "Mensaje de error");
+                    return false;
+                }
+
+                if (mA <= 0 || mB <= 0 || mC <= 0 || mD <= 0 || mDiagonal <= 0)
+                {
+                    MessageBox.Show("Los valores deben ser mayores a cero.", "Mensaje de error");
+                    return false;
+                }
+
+                return true;
             }
-            catch
+            catch (Exception ex)
             {
-                MessageBox.Show("Ingreso no valido...", "Mensaje de error");
+                MessageBox.Show("Ocurrió un error: " + ex.Message, "Mensaje de error");
+                return false;
             }
-
         }
+
 
         public void PerimeterTrapezium()
         {

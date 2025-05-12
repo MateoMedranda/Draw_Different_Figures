@@ -27,11 +27,15 @@ namespace APP3
         private void btnCalculate_Click(object sender, EventArgs e)
         {
             int numLados = cbxTypeFigure.SelectedIndex + 5;
-            ObjFigura.ReadData(txtWidth, numLados);
-            ObjFigura.PerimeterFigure();
-            ObjFigura.AreaFigure();
-            ObjFigura.PrintData(txtPerimeter, txtArea);
+
+            if (ObjFigura.ReadData(txtWidth, numLados))
+            {
+                ObjFigura.PerimeterFigure();
+                ObjFigura.AreaFigure();
+                ObjFigura.PrintData(txtPerimeter, txtArea);
+            }
         }
+
 
         private void btnReset_Click(object sender, EventArgs e)
         {

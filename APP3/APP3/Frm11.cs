@@ -21,10 +21,12 @@ namespace APP3
 
         private void btnCalculate_Click(object sender, EventArgs e)
         {
-            ObjTriangulo.ReadData(txtBase, txtHeight);
-            ObjTriangulo.PerimeterTriangle();
-            ObjTriangulo.AreaTriangle();
-            ObjTriangulo.PrintData(txtPerimeter, txtArea);
+            if (ObjTriangulo.ReadData(txtBase, txtHeight))
+            {
+                ObjTriangulo.PerimeterTriangle();
+                ObjTriangulo.AreaTriangle();
+                ObjTriangulo.PrintData(txtPerimeter, txtArea);
+            }
         }
 
         private void btnReset_Click(object sender, EventArgs e)

@@ -21,11 +21,14 @@ namespace APP3
 
         private void btnCalculate_Click(object sender, EventArgs e)
         {
-            ObjRomboide.ReadData(txtObliqueSide, txtBase, txtHeight);
-            ObjRomboide.PerimeterRhomboid();
-            ObjRomboide.AreaRhomboid();
-            ObjRomboide.PrintData(txtPerimeter, txtArea);
+            if (ObjRomboide.ReadData(txtObliqueSide, txtBase, txtHeight))
+            {
+                ObjRomboide.PerimeterRhomboid();
+                ObjRomboide.AreaRhomboid();
+                ObjRomboide.PrintData(txtPerimeter, txtArea);
+            }
         }
+
 
         private void btnReset_Click(object sender, EventArgs e)
         {

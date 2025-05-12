@@ -27,18 +27,37 @@ namespace APP3
             mPerimeter = 0.0f; mArea = 0.0f;
         }
 
-        public void ReadData(TextBox txtRadius)
+        public bool ReadData(TextBox txtRadius)
         {
             try
             {
-                mRadius = float.Parse(txtRadius.Text);
-            }
-            catch
-            {
-                MessageBox.Show("Ingreso no valido...", "Mensaje de error");
-            }
+                if (string.IsNullOrWhiteSpace(txtRadius.Text))
+                {
+                    MessageBox.Show("No deje el campo vacío.", "Mensaje de error");
+                    return false;
+                }
 
+                if (!float.TryParse(txtRadius.Text, out mRadius))
+                {
+                    MessageBox.Show("Ingrese solo un número válido (sin letras ni símbolos).", "Mensaje de error");
+                    return false;
+                }
+
+                if (mRadius < 0)
+                {
+                    MessageBox.Show("No se permiten valores menores a cero.", "Mensaje de error");
+                    return false;
+                }
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Ocurrió un error: " + ex.Message, "Mensaje de error");
+                return false;
+            }
         }
+
 
         public void PerimeterCircle()
         {

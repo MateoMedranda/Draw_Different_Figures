@@ -21,11 +21,14 @@ namespace APP3
 
         private void btnCalculate_Click(object sender, EventArgs e)
         {
-            ObjRombo.ReadData(txtMajorDiagonal, txtMinorDiagonal);
-            ObjRombo.PerimeterDiamond();
-            ObjRombo.AreaDiamond();
-            ObjRombo.PrintData(txtPerimeter, txtArea);
+            if (ObjRombo.ReadData(txtMajorDiagonal, txtMinorDiagonal))
+            {
+                ObjRombo.PerimeterDiamond();
+                ObjRombo.AreaDiamond();
+                ObjRombo.PrintData(txtPerimeter, txtArea);
+            }
         }
+
 
         private void btnReset_Click(object sender, EventArgs e)
         {

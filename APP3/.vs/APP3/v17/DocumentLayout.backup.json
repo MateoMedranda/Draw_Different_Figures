@@ -1,70 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Mateo\\source\\repos\\Deber_AreasYPerimetros\\APP3\\",
+  "WorkspaceRootPath": "C:\\Users\\Mateo\\source\\repos\\Medranda_Deber_C-lculo-de-rea-y-Per-metro-de-Figuras-Geom-tricas-con-Interfaz-Gr-fica-en-C-\\APP3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D4F491E1-994A-4D80-8497-FCAB86689D6C}|APP3\\APP3.csproj|c:\\users\\mateo\\source\\repos\\deber_areasyperimetros\\app3\\app3\\class5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4F491E1-994A-4D80-8497-FCAB86689D6C}|APP3\\APP3.csproj|solutionrelative:app3\\class5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D4F491E1-994A-4D80-8497-FCAB86689D6C}|APP3\\APP3.csproj|c:\\users\\mateo\\source\\repos\\medranda_deber_c-lculo-de-rea-y-per-metro-de-figuras-geom-tricas-con-interfaz-gr-fica-en-c-\\app3\\app3\\frm11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4F491E1-994A-4D80-8497-FCAB86689D6C}|APP3\\APP3.csproj|solutionrelative:app3\\frm11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4F491E1-994A-4D80-8497-FCAB86689D6C}|APP3\\APP3.csproj|c:\\users\\mateo\\source\\repos\\deber_areasyperimetros\\app3\\app3\\class2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4F491E1-994A-4D80-8497-FCAB86689D6C}|APP3\\APP3.csproj|solutionrelative:app3\\class2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D4F491E1-994A-4D80-8497-FCAB86689D6C}|APP3\\APP3.csproj|c:\\users\\mateo\\source\\repos\\medranda_deber_c-lculo-de-rea-y-per-metro-de-figuras-geom-tricas-con-interfaz-gr-fica-en-c-\\app3\\app3\\class11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4F491E1-994A-4D80-8497-FCAB86689D6C}|APP3\\APP3.csproj|solutionrelative:app3\\class11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4F491E1-994A-4D80-8497-FCAB86689D6C}|APP3\\APP3.csproj|c:\\users\\mateo\\source\\repos\\deber_areasyperimetros\\app3\\app3\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4F491E1-994A-4D80-8497-FCAB86689D6C}|APP3\\APP3.csproj|solutionrelative:app3\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4F491E1-994A-4D80-8497-FCAB86689D6C}|APP3\\APP3.csproj|c:\\users\\mateo\\source\\repos\\deber_areasyperimetros\\app3\\app3\\frm11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{D4F491E1-994A-4D80-8497-FCAB86689D6C}|APP3\\APP3.csproj|c:\\users\\mateo\\source\\repos\\medranda_deber_c-lculo-de-rea-y-per-metro-de-figuras-geom-tricas-con-interfaz-gr-fica-en-c-\\app3\\app3\\frm11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D4F491E1-994A-4D80-8497-FCAB86689D6C}|APP3\\APP3.csproj|solutionrelative:app3\\frm11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4F491E1-994A-4D80-8497-FCAB86689D6C}|APP3\\APP3.csproj|C:\\Users\\Mateo\\source\\repos\\Deber_AreasYPerimetros\\APP3\\app3\\frm10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{D4F491E1-994A-4D80-8497-FCAB86689D6C}|APP3\\APP3.csproj|c:\\users\\mateo\\source\\repos\\medranda_deber_c-lculo-de-rea-y-per-metro-de-figuras-geom-tricas-con-interfaz-gr-fica-en-c-\\app3\\app3\\frm10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4F491E1-994A-4D80-8497-FCAB86689D6C}|APP3\\APP3.csproj|solutionrelative:app3\\frm10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4F491E1-994A-4D80-8497-FCAB86689D6C}|APP3\\APP3.csproj|c:\\users\\mateo\\source\\repos\\medranda_deber_c-lculo-de-rea-y-per-metro-de-figuras-geom-tricas-con-interfaz-gr-fica-en-c-\\app3\\app3\\class10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4F491E1-994A-4D80-8497-FCAB86689D6C}|APP3\\APP3.csproj|solutionrelative:app3\\class10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4F491E1-994A-4D80-8497-FCAB86689D6C}|APP3\\APP3.csproj|C:\\Users\\Mateo\\source\\repos\\Medranda_Deber_C-lculo-de-rea-y-Per-metro-de-Figuras-Geom-tricas-con-Interfaz-Gr-fica-en-C-\\APP3\\app3\\frm10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D4F491E1-994A-4D80-8497-FCAB86689D6C}|APP3\\APP3.csproj|solutionrelative:app3\\frm10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4F491E1-994A-4D80-8497-FCAB86689D6C}|APP3\\APP3.csproj|C:\\Users\\Mateo\\source\\repos\\Deber_AreasYPerimetros\\APP3\\app3\\frm9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D4F491E1-994A-4D80-8497-FCAB86689D6C}|APP3\\APP3.csproj|solutionrelative:app3\\frm9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4F491E1-994A-4D80-8497-FCAB86689D6C}|APP3\\APP3.csproj|C:\\Users\\Mateo\\source\\repos\\Deber_AreasYPerimetros\\APP3\\app3\\frm8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D4F491E1-994A-4D80-8497-FCAB86689D6C}|APP3\\APP3.csproj|solutionrelative:app3\\frm8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4F491E1-994A-4D80-8497-FCAB86689D6C}|APP3\\APP3.csproj|C:\\Users\\Mateo\\source\\repos\\Deber_AreasYPerimetros\\APP3\\app3\\frm7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D4F491E1-994A-4D80-8497-FCAB86689D6C}|APP3\\APP3.csproj|solutionrelative:app3\\frm7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4F491E1-994A-4D80-8497-FCAB86689D6C}|APP3\\APP3.csproj|C:\\Users\\Mateo\\source\\repos\\Deber_AreasYPerimetros\\APP3\\app3\\frm6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D4F491E1-994A-4D80-8497-FCAB86689D6C}|APP3\\APP3.csproj|solutionrelative:app3\\frm6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4F491E1-994A-4D80-8497-FCAB86689D6C}|APP3\\APP3.csproj|c:\\users\\mateo\\source\\repos\\deber_areasyperimetros\\app3\\app3\\frm5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D4F491E1-994A-4D80-8497-FCAB86689D6C}|APP3\\APP3.csproj|solutionrelative:app3\\frm5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4F491E1-994A-4D80-8497-FCAB86689D6C}|APP3\\APP3.csproj|C:\\Users\\Mateo\\source\\repos\\Deber_AreasYPerimetros\\APP3\\app3\\frm4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D4F491E1-994A-4D80-8497-FCAB86689D6C}|APP3\\APP3.csproj|solutionrelative:app3\\frm4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4F491E1-994A-4D80-8497-FCAB86689D6C}|APP3\\APP3.csproj|C:\\Users\\Mateo\\source\\repos\\Deber_AreasYPerimetros\\APP3\\app3\\frm3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D4F491E1-994A-4D80-8497-FCAB86689D6C}|APP3\\APP3.csproj|solutionrelative:app3\\frm3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4F491E1-994A-4D80-8497-FCAB86689D6C}|APP3\\APP3.csproj|C:\\Users\\Mateo\\source\\repos\\Deber_AreasYPerimetros\\APP3\\app3\\frm2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D4F491E1-994A-4D80-8497-FCAB86689D6C}|APP3\\APP3.csproj|solutionrelative:app3\\frm2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4F491E1-994A-4D80-8497-FCAB86689D6C}|APP3\\APP3.csproj|c:\\users\\mateo\\source\\repos\\deber_areasyperimetros\\app3\\app3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D4F491E1-994A-4D80-8497-FCAB86689D6C}|APP3\\APP3.csproj|solutionrelative:app3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4F491E1-994A-4D80-8497-FCAB86689D6C}|APP3\\APP3.csproj|C:\\Users\\Mateo\\source\\repos\\Deber_AreasYPerimetros\\APP3\\app3\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{D4F491E1-994A-4D80-8497-FCAB86689D6C}|APP3\\APP3.csproj|C:\\Users\\Mateo\\source\\repos\\Medranda_Deber_C-lculo-de-rea-y-Per-metro-de-Figuras-Geom-tricas-con-Interfaz-Gr-fica-en-C-\\APP3\\app3\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D4F491E1-994A-4D80-8497-FCAB86689D6C}|APP3\\APP3.csproj|solutionrelative:app3\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4F491E1-994A-4D80-8497-FCAB86689D6C}|APP3\\APP3.csproj|c:\\users\\mateo\\source\\repos\\deber_areasyperimetros\\app3\\app3\\frm11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4F491E1-994A-4D80-8497-FCAB86689D6C}|APP3\\APP3.csproj|solutionrelative:app3\\frm11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -79,133 +43,74 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Class5.cs",
-              "DocumentMoniker": "C:\\Users\\Mateo\\source\\repos\\Deber_AreasYPerimetros\\APP3\\APP3\\Class5.cs",
-              "RelativeDocumentMoniker": "APP3\\Class5.cs",
-              "ToolTip": "C:\\Users\\Mateo\\source\\repos\\Deber_AreasYPerimetros\\APP3\\APP3\\Class5.cs",
-              "RelativeToolTip": "APP3\\Class5.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAowEIAAAAFAAAAAAAAAA==",
+              "Title": "Frm11.cs",
+              "DocumentMoniker": "C:\\Users\\Mateo\\source\\repos\\Medranda_Deber_C-lculo-de-rea-y-Per-metro-de-Figuras-Geom-tricas-con-Interfaz-Gr-fica-en-C-\\APP3\\APP3\\Frm11.cs",
+              "RelativeDocumentMoniker": "APP3\\Frm11.cs",
+              "ToolTip": "C:\\Users\\Mateo\\source\\repos\\Medranda_Deber_C-lculo-de-rea-y-Per-metro-de-Figuras-Geom-tricas-con-Interfaz-Gr-fica-en-C-\\APP3\\APP3\\Frm11.cs",
+              "RelativeToolTip": "APP3\\Frm11.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T02:18:01.682Z",
+              "WhenOpened": "2025-05-12T03:39:47.191Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Class2.cs",
-              "DocumentMoniker": "C:\\Users\\Mateo\\source\\repos\\Deber_AreasYPerimetros\\APP3\\APP3\\Class2.cs",
-              "RelativeDocumentMoniker": "APP3\\Class2.cs",
-              "ToolTip": "C:\\Users\\Mateo\\source\\repos\\Deber_AreasYPerimetros\\APP3\\APP3\\Class2.cs",
-              "RelativeToolTip": "APP3\\Class2.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Class11.cs",
+              "DocumentMoniker": "C:\\Users\\Mateo\\source\\repos\\Medranda_Deber_C-lculo-de-rea-y-Per-metro-de-Figuras-Geom-tricas-con-Interfaz-Gr-fica-en-C-\\APP3\\APP3\\Class11.cs",
+              "RelativeDocumentMoniker": "APP3\\Class11.cs",
+              "ToolTip": "C:\\Users\\Mateo\\source\\repos\\Medranda_Deber_C-lculo-de-rea-y-Per-metro-de-Figuras-Geom-tricas-con-Interfaz-Gr-fica-en-C-\\APP3\\APP3\\Class11.cs",
+              "RelativeToolTip": "APP3\\Class11.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAYwDkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T02:17:59.635Z",
+              "WhenOpened": "2025-05-12T03:39:31.222Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\Mateo\\source\\repos\\Deber_AreasYPerimetros\\APP3\\APP3\\Class1.cs",
-              "RelativeDocumentMoniker": "APP3\\Class1.cs",
-              "ToolTip": "C:\\Users\\Mateo\\source\\repos\\Deber_AreasYPerimetros\\APP3\\APP3\\Class1.cs",
-              "RelativeToolTip": "APP3\\Class1.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Title": "Frm11.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Mateo\\source\\repos\\Medranda_Deber_C-lculo-de-rea-y-Per-metro-de-Figuras-Geom-tricas-con-Interfaz-Gr-fica-en-C-\\APP3\\APP3\\Frm11.cs",
+              "RelativeDocumentMoniker": "APP3\\Frm11.cs",
+              "ToolTip": "C:\\Users\\Mateo\\source\\repos\\Medranda_Deber_C-lculo-de-rea-y-Per-metro-de-Figuras-Geom-tricas-con-Interfaz-Gr-fica-en-C-\\APP3\\APP3\\Frm11.cs [Dise\u00F1o]",
+              "RelativeToolTip": "APP3\\Frm11.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T02:17:56.915Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T03:39:28.382Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Frm11.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Mateo\\source\\repos\\Deber_AreasYPerimetros\\APP3\\APP3\\Frm11.cs",
-              "RelativeDocumentMoniker": "APP3\\Frm11.cs",
-              "ToolTip": "C:\\Users\\Mateo\\source\\repos\\Deber_AreasYPerimetros\\APP3\\APP3\\Frm11.cs [Dise\u00F1o]",
-              "RelativeToolTip": "APP3\\Frm11.cs [Dise\u00F1o]",
+              "Title": "Frm10.cs",
+              "DocumentMoniker": "C:\\Users\\Mateo\\source\\repos\\Medranda_Deber_C-lculo-de-rea-y-Per-metro-de-Figuras-Geom-tricas-con-Interfaz-Gr-fica-en-C-\\APP3\\APP3\\Frm10.cs",
+              "RelativeDocumentMoniker": "APP3\\Frm10.cs",
+              "ToolTip": "C:\\Users\\Mateo\\source\\repos\\Medranda_Deber_C-lculo-de-rea-y-Per-metro-de-Figuras-Geom-tricas-con-Interfaz-Gr-fica-en-C-\\APP3\\APP3\\Frm10.cs",
+              "RelativeToolTip": "APP3\\Frm10.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T02:12:11.695Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Frm5.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Mateo\\source\\repos\\Deber_AreasYPerimetros\\APP3\\APP3\\Frm5.cs",
-              "RelativeDocumentMoniker": "APP3\\Frm5.cs",
-              "ToolTip": "C:\\Users\\Mateo\\source\\repos\\Deber_AreasYPerimetros\\APP3\\APP3\\Frm5.cs [Dise\u00F1o]",
-              "RelativeToolTip": "APP3\\Frm5.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T02:11:24.841Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Frm2.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Mateo\\source\\repos\\Deber_AreasYPerimetros\\APP3\\APP3\\Frm2.cs",
-              "RelativeDocumentMoniker": "APP3\\Frm2.cs",
-              "ToolTip": "C:\\Users\\Mateo\\source\\repos\\Deber_AreasYPerimetros\\APP3\\APP3\\Frm2.cs [Dise\u00F1o]",
-              "RelativeToolTip": "APP3\\Frm2.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T19:07:26.62Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Frm3.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Mateo\\source\\repos\\Deber_AreasYPerimetros\\APP3\\APP3\\Frm3.cs",
-              "RelativeDocumentMoniker": "APP3\\Frm3.cs",
-              "ToolTip": "C:\\Users\\Mateo\\source\\repos\\Deber_AreasYPerimetros\\APP3\\APP3\\Frm3.cs [Dise\u00F1o]",
-              "RelativeToolTip": "APP3\\Frm3.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T19:06:47.338Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Frm4.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Mateo\\source\\repos\\Deber_AreasYPerimetros\\APP3\\APP3\\Frm4.cs",
-              "RelativeDocumentMoniker": "APP3\\Frm4.cs",
-              "ToolTip": "C:\\Users\\Mateo\\source\\repos\\Deber_AreasYPerimetros\\APP3\\APP3\\Frm4.cs [Dise\u00F1o]",
-              "RelativeToolTip": "APP3\\Frm4.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T19:06:45.148Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Frm7.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Mateo\\source\\repos\\Deber_AreasYPerimetros\\APP3\\APP3\\Frm7.cs",
-              "RelativeDocumentMoniker": "APP3\\Frm7.cs",
-              "ToolTip": "C:\\Users\\Mateo\\source\\repos\\Deber_AreasYPerimetros\\APP3\\APP3\\Frm7.cs [Dise\u00F1o]",
-              "RelativeToolTip": "APP3\\Frm7.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T19:05:01.172Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Frm9.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Mateo\\source\\repos\\Deber_AreasYPerimetros\\APP3\\APP3\\Frm9.cs",
-              "RelativeDocumentMoniker": "APP3\\Frm9.cs",
-              "ToolTip": "C:\\Users\\Mateo\\source\\repos\\Deber_AreasYPerimetros\\APP3\\APP3\\Frm9.cs [Dise\u00F1o]",
-              "RelativeToolTip": "APP3\\Frm9.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T19:04:23.077Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-05-12T03:38:37.095Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Class10.cs",
+              "DocumentMoniker": "C:\\Users\\Mateo\\source\\repos\\Medranda_Deber_C-lculo-de-rea-y-Per-metro-de-Figuras-Geom-tricas-con-Interfaz-Gr-fica-en-C-\\APP3\\APP3\\Class10.cs",
+              "RelativeDocumentMoniker": "APP3\\Class10.cs",
+              "ToolTip": "C:\\Users\\Mateo\\source\\repos\\Medranda_Deber_C-lculo-de-rea-y-Per-metro-de-Figuras-Geom-tricas-con-Interfaz-Gr-fica-en-C-\\APP3\\APP3\\Class10.cs",
+              "RelativeToolTip": "APP3\\Class10.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T03:31:43.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Frm10.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Mateo\\source\\repos\\Deber_AreasYPerimetros\\APP3\\APP3\\Frm10.cs",
+              "DocumentMoniker": "C:\\Users\\Mateo\\source\\repos\\Medranda_Deber_C-lculo-de-rea-y-Per-metro-de-Figuras-Geom-tricas-con-Interfaz-Gr-fica-en-C-\\APP3\\APP3\\Frm10.cs",
               "RelativeDocumentMoniker": "APP3\\Frm10.cs",
-              "ToolTip": "C:\\Users\\Mateo\\source\\repos\\Deber_AreasYPerimetros\\APP3\\APP3\\Frm10.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Mateo\\source\\repos\\Medranda_Deber_C-lculo-de-rea-y-Per-metro-de-Figuras-Geom-tricas-con-Interfaz-Gr-fica-en-C-\\APP3\\APP3\\Frm10.cs [Dise\u00F1o]",
               "RelativeToolTip": "APP3\\Frm10.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-10T19:03:48.625Z",
@@ -213,60 +118,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Mateo\\source\\repos\\Deber_AreasYPerimetros\\APP3\\APP3\\Form1.cs",
-              "RelativeDocumentMoniker": "APP3\\Form1.cs",
-              "ToolTip": "C:\\Users\\Mateo\\source\\repos\\Deber_AreasYPerimetros\\APP3\\APP3\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "APP3\\Form1.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T02:10:47.098Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Frm11.cs",
-              "DocumentMoniker": "C:\\Users\\Mateo\\source\\repos\\Deber_AreasYPerimetros\\APP3\\APP3\\Frm11.cs",
-              "RelativeDocumentMoniker": "APP3\\Frm11.cs",
-              "ToolTip": "C:\\Users\\Mateo\\source\\repos\\Deber_AreasYPerimetros\\APP3\\APP3\\Frm11.cs",
-              "RelativeToolTip": "APP3\\Frm11.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T18:50:24.524Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Frm6.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Mateo\\source\\repos\\Deber_AreasYPerimetros\\APP3\\APP3\\Frm6.cs",
-              "RelativeDocumentMoniker": "APP3\\Frm6.cs",
-              "ToolTip": "C:\\Users\\Mateo\\source\\repos\\Deber_AreasYPerimetros\\APP3\\APP3\\Frm6.cs [Dise\u00F1o]",
-              "RelativeToolTip": "APP3\\Frm6.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T18:44:56.362Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Frm8.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Mateo\\source\\repos\\Deber_AreasYPerimetros\\APP3\\APP3\\Frm8.cs",
-              "RelativeDocumentMoniker": "APP3\\Frm8.cs",
-              "ToolTip": "C:\\Users\\Mateo\\source\\repos\\Deber_AreasYPerimetros\\APP3\\APP3\\Frm8.cs [Dise\u00F1o]",
-              "RelativeToolTip": "APP3\\Frm8.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T17:15:50.018Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
               "Title": "FrmHome.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Mateo\\source\\repos\\Deber_AreasYPerimetros\\APP3\\APP3\\FrmHome.cs",
+              "DocumentMoniker": "C:\\Users\\Mateo\\source\\repos\\Medranda_Deber_C-lculo-de-rea-y-Per-metro-de-Figuras-Geom-tricas-con-Interfaz-Gr-fica-en-C-\\APP3\\APP3\\FrmHome.cs",
               "RelativeDocumentMoniker": "APP3\\FrmHome.cs",
-              "ToolTip": "C:\\Users\\Mateo\\source\\repos\\Deber_AreasYPerimetros\\APP3\\APP3\\FrmHome.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Mateo\\source\\repos\\Medranda_Deber_C-lculo-de-rea-y-Per-metro-de-Figuras-Geom-tricas-con-Interfaz-Gr-fica-en-C-\\APP3\\APP3\\FrmHome.cs [Dise\u00F1o]",
               "RelativeToolTip": "APP3\\FrmHome.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-06T12:21:24.515Z",

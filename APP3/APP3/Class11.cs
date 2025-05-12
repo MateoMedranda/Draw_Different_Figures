@@ -22,19 +22,40 @@ namespace APP3
         }
 
         //Función que lee los datos de entrada del Triángulo
-        public void ReadData(TextBox txtBase, TextBox txtSide)
+        public bool ReadData(TextBox txtBase, TextBox txtSide)
         {
             try
             {
-                mBase = float.Parse(txtBase.Text);
-                mHeight = float.Parse(txtSide.Text);
-            }
-            catch
-            {
-                MessageBox.Show("Ingreso no valido...", "Mensaje de error");
-            }
+                // Verificar si los campos están vacíos
+                if (string.IsNullOrWhiteSpace(txtBase.Text) || string.IsNullOrWhiteSpace(txtSide.Text))
+                {
+                    MessageBox.Show("No deje campos vacíos.", "Mensaje de error");
+                    return false;
+                }
 
+                // Intentar convertir los valores a float
+                if (!float.TryParse(txtBase.Text, out mBase) || !float.TryParse(txtSide.Text, out mHeight))
+                {
+                    MessageBox.Show("Ingrese solo números válidos (sin letras ni símbolos).", "Mensaje de error");
+                    return false;
+                }
+
+                // Verificar que los valores sean mayores que cero
+                if (mBase <= 0 || mHeight <= 0)
+                {
+                    MessageBox.Show("Los valores deben ser mayores que cero.", "Mensaje de error");
+                    return false;
+                }
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Ocurrió un error: " + ex.Message, "Mensaje de error");
+                return false;
+            }
         }
+
 
         public void PerimeterTriangle()
         {
