@@ -1,1 +1,1 @@
-# Medranda_Deber_C-lculo-de-rea-y-Per-metro-de-Figuras-Geom-tricas-con-Interfaz-Gr-fica-en-C-
+# Draw_Different_Figures
